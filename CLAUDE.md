@@ -33,7 +33,7 @@ Versões confirmadas na doc oficial na Sprint 1 — nunca confiar em memória do
 - NUNCA commit direto ou force push em `main`. Branch + PR com CI verde. NUNCA `--no-verify`.
 - Nenhuma feature não trivial sem o fluxo SDD.
 
-Constituição: `.specify/memory/constitution.md` (após `/speckit-constitution`; insumo em `docs/01-architecture/constitution-insumo.md`) — manter coerente com esta lista **no mesmo commit**.
+Constituição: `.specify/memory/constitution.md` (v1.0.0, ratificada em 2026-10-15) — manter coerente com esta lista **no mesmo commit**.
 
 ## Modo de autoria (OE-08)
 
@@ -79,7 +79,7 @@ Critérios checáveis ("recibo da unidade 102 acessado pela 101 → 404"), nunca
 ## Fase atual
 
 - **Fase:** F0 — Discovery (Sprint 0, out–dez/2026). Sem código até jan/2027.
-- **Próximo:** responder Q-01 (síndico aceita o piloto) e rodar `/speckit-constitution` com o insumo.
+- **Próximo:** responder Q-01 (síndico aceita o piloto), mover `recref/` para `docs/00-discovery/` e escrever os ADRs.
 - Histórico: `docs/ROADMAP.md` e `CHANGELOG.md` (não duplicar aqui).
 
 ## Índice de documentação (carregar sob demanda)

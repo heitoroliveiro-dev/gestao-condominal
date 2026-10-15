@@ -6,6 +6,14 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e
 
 ## [Não lançado]
 
+### 2026-10-15 — Constituição 1.0.0
+
+#### Adicionado
+- `.specify/memory/constitution.md` **v1.0.0**, ratificada a partir de `docs/01-architecture/constitution-insumo.md`: 7 princípios (I isolamento, II append-only e V TDD inegociáveis; III acesso negado por padrão, IV LGPD, VI domínio com fronteiras, VII DoD com evidência), restrições técnicas, fluxo de desenvolvimento e governança (Constitution Check antes e depois do design; `CLAUDE.md` coerente no mesmo commit de emenda).
+
+#### Alterado
+- `constitution-insumo.md` marcado como histórico; `CLAUDE.md` e `ROADMAP` apontam para a constituição ratificada.
+
 ### 2026-10-15 — Repositório e Spec Kit
 
 #### Adicionado

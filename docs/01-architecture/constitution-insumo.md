@@ -1,4 +1,8 @@
 <!--
+HISTÓRICO: ratificado como constituição 1.0.0 em 2026-10-15. A fonte oficial agora é
+.specify/memory/constitution.md; emendas são feitas lá (via /speckit-constitution),
+não aqui.
+
 Insumo para /speckit-constitution. NÃO copiar direto para .specify/memory/:
 entregar este texto ao comando, revisar, e deixá-lo gerar o arquivo oficial
 (com Sync Impact Report e checagem dos templates).
