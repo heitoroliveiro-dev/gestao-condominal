@@ -6,6 +6,28 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e
 
 ## [Não lançado]
 
+### 2026-10-15 — Constituição 1.0.0
+
+#### Adicionado
+- `.specify/memory/constitution.md` **v1.0.0**, ratificada a partir de `docs/01-architecture/constitution-insumo.md`: 7 princípios (I isolamento, II append-only e V TDD inegociáveis; III acesso negado por padrão, IV LGPD, VI domínio com fronteiras, VII DoD com evidência), restrições técnicas, fluxo de desenvolvimento e governança (Constitution Check antes e depois do design; `CLAUDE.md` coerente no mesmo commit de emenda).
+
+#### Alterado
+- `constitution-insumo.md` marcado como histórico; `CLAUDE.md` e `ROADMAP` apontam para a constituição ratificada.
+
+### 2026-10-15 — Repositório e Spec Kit
+
+#### Adicionado
+- Repositório git em `github.com/heitoroliveiro-dev/gestao-condominal`, com `.gitignore` (segredos, caches, mídia, binário do Tailwind).
+- GitHub Spec Kit **v1.2.0** (`specify init --here --integration claude --script sh`): `.specify/` (templates, scripts, workflow) e skills `/speckit-*` em `.claude/skills/`. `.specify/memory/constitution.md` ainda é o template vazio até o `/speckit-constitution`.
+
+#### Decidido
+- Spec Kit fixado na release v1.2.0 (não no `main` do repositório, que é versão dev). Na v1.2.0 a flag `--ai` virou `--integration`.
+- Sem a extensão `git` do Spec Kit: o `/speckit-specify` não cria branch; o branch `feat/NNN-nome` é criado à mão (`CONTRIBUTING.md`).
+- Proteção de `main` no GitHub não configurada: a regra "nada direto em `main`" segue por disciplina.
+
+#### Corrigido
+- `scripts/check-no-secrets.sh` acusava a si mesmo (`SECRET_PATTERN='...'`); variável renomeada para `PADRAO_SEGREDO`, sem abrir exceção na trava.
+
 ### 2026-10-15 — Estrutura de desenvolvimento SDD
 
 #### Adicionado
