@@ -4,7 +4,7 @@
 > **Nome do projeto:** provisório (`gestao-condominio`)
 > **Autor:** Heitor Oliveiro
 > **Última atualização:** 2026-10-15
-> **Documentos relacionados:** `spec-feed-transparencia.md`, `questoes-em-aberto.md`, `changelog.md`
+> **Documentos relacionados:** `spec-feed-transparencia.md`, `questoes-em-aberto.md`, `/CHANGELOG.md` (raiz do repositório)
 > **Observação:** os diagramas estão em Mermaid. O preview do Google Drive não renderiza Mermaid; abra no GitHub, VS Code ou Obsidian para visualizar.
 
 ---
@@ -470,7 +470,7 @@ sequenceDiagram
 ## 9. Metodologias
 
 ### Spec-Driven Development (SDD)
-Nenhuma funcionalidade é implementada sem especificação aprovada: história de usuário, critérios de aceitação (Gherkin) e impacto no modelo de dados. As especificações ficam no repositório, em `docs/specs/`, versionadas com o código. O feed de transparência é a primeira especificação separada (`spec-feed-transparencia.md`).
+Nenhuma funcionalidade é implementada sem especificação aprovada: história de usuário, critérios de aceitação (Gherkin) e impacto no modelo de dados. As especificações ficam no repositório, em `specs/NNN-nome/` (estrutura do GitHub Spec Kit), versionadas com o código. O feed de transparência é a primeira especificação separada (`spec-feed-transparencia.md`).
 
 ### Domain-Driven Design (DDD)
 - **Linguagem ubíqua:** termos do glossário (seção 17) usados igualmente em código, documentação e conversa com o síndico.
@@ -567,10 +567,14 @@ flowchart TB
 
 ```
 gestao-condominio/
+├── CHANGELOG.md
+├── CLAUDE.md                # hub de contexto do agente
+├── .specify/                # GitHub Spec Kit: constituição, templates, scripts
+├── specs/                   # uma pasta por feature: specs/NNN-nome/
 ├── docs/
-│   ├── specs/
-│   ├── adr/
-│   └── changelog.md
+│   ├── 00-discovery/        # esta visão geral, spec do feed, questões em aberto
+│   ├── 01-architecture/adr/
+│   └── ...                  # segurança, testes, observabilidade, runbooks, design
 ├── src/
 │   ├── config/              # settings, urls, wsgi/asgi
 │   ├── nucleo/              # condomínio, unidades, pessoas, vínculos, papéis, módulos
@@ -595,6 +599,8 @@ gestao-condominio/
 ```
 
 ### 10.4 Decisões arquiteturais registradas (ADRs a escrever)
+
+Arquivos e status atualizados em `docs/01-architecture/adr/README.md`.
 
 | ADR | Decisão | Status |
 |---|---|---|
