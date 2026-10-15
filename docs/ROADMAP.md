@@ -40,7 +40,7 @@ Numeração das features (`specs/NNN-nome`, branch `feat/NNN-nome`) é atribuíd
 | 2 | Rodar `/speckit-constitution` com o insumo e ratificar 1.0.0 | adoção SDD | chore | ✅ feito — `docs/constituicao` |
 | 3 | Mover `recref/` para `docs/00-discovery/` e unificar `recref/changelog.md` no `CHANGELOG.md` | adoção SDD | chore | ✅ feito — `chore/mover-discovery` |
 | 4 | Atualizar `visao-geral` §9 e §10.3: specs em `specs/` (Spec Kit) e ADRs em `docs/01-architecture/adr/` | divergência com o método | docs | ✅ feito — `chore/mover-discovery` |
-| 5 | Escrever ADR-001 a 009 a partir das decisões da visão geral (o autor dá o porquê; a IA formata) | `visao-geral` §10.4 | docs | |
+| 5 | Escrever ADR-001 a 009 a partir das decisões da visão geral (o autor dá o porquê; a IA formata) | `visao-geral` §10.4 | docs | rascunhos 001–010 em `docs/adrs-rascunho`; falta o autor fechar as Lacunas |
 | 6 | ADR-005 deve escolher o mecanismo de append-only no banco (trigger vs. `REVOKE`) | `ATRIBUTOS-DE-QUALIDADE` §3 | ADR | |
 | 7 | Escrever ADR-011 (adoção do design system) decidindo os ajustes de `docs/06-design` §2; marcar Q-10 como respondida | design system 2026-10-15 | ADR | |
 | 8 | Feature 001: confirmar Tailwind v4 CLI standalone com o `globals.css` do DS (import `tw-animate-css`) | `docs/06-design` §1 | dentro da 001 | |

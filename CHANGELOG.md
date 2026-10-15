@@ -4,6 +4,11 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e
 
 ## [Não lançado]
 
+### 2026-10-15 — Rascunhos dos ADR-001 a 010
+
+#### Adicionado
+- `docs/01-architecture/adr/adr-001` a `adr-010`, status "proposto", montados só com o porquê já escrito pelo autor na visão geral, na spec do feed e no changelog; cada um lista as **Lacunas** que o autor precisa fechar antes de "aceito" (ex.: ADR-005 — trigger × `REVOKE`).
+
 ### 2026-10-15 — Discovery em `docs/00-discovery/`
 
 #### Alterado
