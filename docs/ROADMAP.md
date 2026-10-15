@@ -6,7 +6,7 @@
 ## Onde estou agora
 
 **Fase atual:** F0 — Discovery (Sprint 0) · **Próximo marco:** M1 — primeira competência paga com recibo pelo sistema
-**Próxima ação:** conversar com o síndico (Q-01) e rodar `/speckit-constitution` com `docs/01-architecture/constitution-insumo.md`.
+**Próxima ação:** conversar com o síndico (Q-01) e rodar `/speckit-constitution` (reiniciar o Claude Code antes) com `docs/01-architecture/constitution-insumo.md`.
 **Bloqueios:** Q-01 bloqueia todo o MVP; Q-08 bloqueia o piloto.
 
 ## O Norte
@@ -36,7 +36,7 @@ Numeração das features (`specs/NNN-nome`, branch `feat/NNN-nome`) é atribuíd
 
 | # | Item | Origem | Triagem | Status / PR |
 |---|---|---|---|---|
-| 1 | Instalar Spec Kit (`specify init --here --ai claude`) e `git init` | adoção SDD 2026-10-15 | chore | |
+| 1 | Instalar Spec Kit (`specify init --here --integration claude --script sh`, v1.2.0) e `git init` | adoção SDD 2026-10-15 | chore | ✅ feito — `chore/speckit-init` |
 | 2 | Rodar `/speckit-constitution` com o insumo e ratificar 1.0.0 | adoção SDD | chore | |
 | 3 | Mover `recref/` para `docs/00-discovery/` e unificar `recref/changelog.md` no `CHANGELOG.md` | adoção SDD | chore | |
 | 4 | Atualizar `visao-geral` §9 e §10.3: specs em `specs/` (Spec Kit) e ADRs em `docs/01-architecture/adr/` | divergência com o método | docs | |
