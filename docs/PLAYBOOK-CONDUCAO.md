@@ -82,7 +82,7 @@ Com ~8 h/semana, uma feature SDD ocupa várias sessões. Tudo bem: cada sessão 
 
 | Pergunta | Onde |
 |---|---|
-| Qual o Norte, o que é o produto? | `docs/00-discovery/` (hoje `recref/`) |
+| Qual o Norte, o que é o produto? | `docs/00-discovery/` |
 | O que construir, em que ordem? | `docs/ROADMAP.md` |
 | Em que fase estou? | `CLAUDE.md` → Fase atual |
 | Por que decidimos X? | `docs/01-architecture/adr/` |

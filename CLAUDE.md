@@ -6,7 +6,7 @@
 
 Sistema web para condomínios pequenos (8–50 unidades) com síndico morador: cobrança com comprovante e recibo, chamados com prova de resolução, comunicados e feed de transparência.
 **Norte:** *transparência com prova — toda ação relevante fica registrada com autor, data e prova, e ninguém consegue apagá-la.*
-Fonte de verdade do produto: `recref/visao-geral-da-solucao.md` (mover para `docs/00-discovery/` ao criar o repositório — ver `docs/00-discovery/README.md`).
+Fonte de verdade do produto: `docs/00-discovery/visao-geral-da-solucao.md` (como se liga ao SDD: `docs/00-discovery/README.md`).
 
 ## Stack (imutável sem ADR)
 
@@ -79,7 +79,7 @@ Critérios checáveis ("recibo da unidade 102 acessado pela 101 → 404"), nunca
 ## Fase atual
 
 - **Fase:** F0 — Discovery (Sprint 0, out–dez/2026). Sem código até jan/2027.
-- **Próximo:** responder Q-01 (síndico aceita o piloto), mover `recref/` para `docs/00-discovery/` e escrever os ADRs.
+- **Próximo:** responder Q-01 (síndico aceita o piloto) e escrever os ADRs.
 - Histórico: `docs/ROADMAP.md` e `CHANGELOG.md` (não duplicar aqui).
 
 ## Índice de documentação (carregar sob demanda)
@@ -90,7 +90,7 @@ Critérios checáveis ("recibo da unidade 102 acessado pela 101 → 404"), nunca
 | Segurança, desempenho, disponibilidade… e como cada um é garantido | `docs/ATRIBUTOS-DE-QUALIDADE.md` |
 | O que/onde/quando documentar | `docs/GUIA-DOCUMENTACAO.md` |
 | Fases, marcos, pendências | `docs/ROADMAP.md` |
-| O produto (RF/RNF, modelo, personas) | `docs/00-discovery/README.md` → `recref/` |
+| O produto (RF/RNF, modelo, personas) | `docs/00-discovery/` |
 | Decisões de arquitetura | `docs/01-architecture/adr/` |
 | Segurança e LGPD | `docs/02-security/estrategia-seguranca.md` |
 | Testes | `docs/03-testing/estrategia-testes.md` |
@@ -107,5 +107,5 @@ Critérios checáveis ("recibo da unidade 102 acessado pela 101 → 404"), nunca
 - Sinalizar overengineering ("precisamos disso hoje?"), abstração sem segundo caso de uso, desvio de SOLID/DRY/KISS.
 - Antes de mexer em estrutura existente: impacto, mudança pequena e reversível, rollback.
 - Decisão com mais de um caminho: alternativas + recomendação; o autor decide e vira ADR.
-- Usar a linguagem ubíqua do glossário (`recref/visao-geral-da-solucao.md` §17) em código, specs e conversa.
+- Usar a linguagem ubíqua do glossário (`docs/00-discovery/visao-geral-da-solucao.md` §17) em código, specs e conversa.
 - Ideia nova no meio de uma tarefa → `docs/ROADMAP.md`, não o diff atual.

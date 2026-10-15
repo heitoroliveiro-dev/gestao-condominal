@@ -1,12 +1,12 @@
 # Roadmap — Gestão de Condomínio
 
 > Mantenha "Onde estou agora" curto e sempre verdadeiro. O detalhe de cada entrega vive em `specs/`, no PR e no `CHANGELOG.md`, não aqui.
-> Cronograma e esforço detalhados: `recref/visao-geral-da-solucao.md` §14.
+> Cronograma e esforço detalhados: `docs/00-discovery/visao-geral-da-solucao.md` §14.
 
 ## Onde estou agora
 
 **Fase atual:** F0 — Discovery (Sprint 0) · **Próximo marco:** M1 — primeira competência paga com recibo pelo sistema
-**Próxima ação:** conversar com o síndico (Q-01); mover `recref/` (pendência 3); escrever os ADRs (pendência 5).
+**Próxima ação:** conversar com o síndico (Q-01); escrever os ADRs (pendências 5 a 7).
 **Bloqueios:** Q-01 bloqueia todo o MVP; Q-08 bloqueia o piloto.
 
 ## O Norte
@@ -38,8 +38,8 @@ Numeração das features (`specs/NNN-nome`, branch `feat/NNN-nome`) é atribuíd
 |---|---|---|---|---|
 | 1 | Instalar Spec Kit (`specify init --here --integration claude --script sh`, v1.2.0) e `git init` | adoção SDD 2026-10-15 | chore | ✅ feito — `chore/speckit-init` |
 | 2 | Rodar `/speckit-constitution` com o insumo e ratificar 1.0.0 | adoção SDD | chore | ✅ feito — `docs/constituicao` |
-| 3 | Mover `recref/` para `docs/00-discovery/` e unificar `recref/changelog.md` no `CHANGELOG.md` | adoção SDD | chore | |
-| 4 | Atualizar `visao-geral` §9 e §10.3: specs em `specs/` (Spec Kit) e ADRs em `docs/01-architecture/adr/` | divergência com o método | docs | |
+| 3 | Mover `recref/` para `docs/00-discovery/` e unificar `recref/changelog.md` no `CHANGELOG.md` | adoção SDD | chore | ✅ feito — `chore/mover-discovery` |
+| 4 | Atualizar `visao-geral` §9 e §10.3: specs em `specs/` (Spec Kit) e ADRs em `docs/01-architecture/adr/` | divergência com o método | docs | ✅ feito — `chore/mover-discovery` |
 | 5 | Escrever ADR-001 a 009 a partir das decisões da visão geral (o autor dá o porquê; a IA formata) | `visao-geral` §10.4 | docs | |
 | 6 | ADR-005 deve escolher o mecanismo de append-only no banco (trigger vs. `REVOKE`) | `ATRIBUTOS-DE-QUALIDADE` §3 | ADR | |
 | 7 | Escrever ADR-011 (adoção do design system) decidindo os ajustes de `docs/06-design` §2; marcar Q-10 como respondida | design system 2026-10-15 | ADR | |
@@ -63,4 +63,4 @@ Numeração das features (`specs/NNN-nome`, branch `feat/NNN-nome`) é atribuíd
 
 ## Backlog futuro (fora do escopo atual)
 
-Ver `recref/visao-geral-da-solucao.md` §16 (fora de escopo, com motivo e gatilho de cada item). Ideia nova que surgir no meio de uma tarefa entra aqui com motivo e gatilho, não no diff atual.
+Ver `docs/00-discovery/visao-geral-da-solucao.md` §16 (fora de escopo, com motivo e gatilho de cada item). Ideia nova que surgir no meio de uma tarefa entra aqui com motivo e gatilho, não no diff atual.

@@ -17,7 +17,7 @@
 | ADR-007 | Sem integração bancária no MVP; pagamento comprovado por anexo | proposto | `changelog` |
 | ADR-008 | Chat entre moradores descartado | proposto | `visao-geral` §16 |
 | ADR-009 | Clean Architecture pragmática (serviços de aplicação; portas só para dependências externas) | proposto | `visao-geral` §9 |
-| ADR-010 | Feed sem posts de moradores nem comentários; só reações positivas | proposto | `recref/spec-feed-transparencia.md` §7 |
+| ADR-010 | Feed sem posts de moradores nem comentários; só reações positivas | proposto | `docs/00-discovery/spec-feed-transparencia.md` §7 |
 | ADR-011 | Design system Linear como padrão de UI: tokens e regras integrais, Tailwind v4 via CLI standalone, componentes reimplementados como templates Django; ajustes de produto (tema inicial, borda de input AA, densidade no celular). Responde à Q-10 | proposto | `docs/06-design/diretrizes-design.md` §1–2 |
 
 Os arquivos dos ADRs ainda não foram escritos de propósito: o **porquê** e as alternativas saem do autor; a IA só formata (ver `docs/GUIA-DOCUMENTACAO.md` §6). Pendência nº 5 do ROADMAP.

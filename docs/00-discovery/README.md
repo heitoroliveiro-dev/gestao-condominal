@@ -1,13 +1,14 @@
 # 00 — Discovery (fonte de verdade do produto)
 
-Os documentos de descoberta ainda estão em `recref/`. Ao criar o repositório (pendência nº 3 do ROADMAP), movê-los para esta pasta sem alterar o conteúdo:
+Documentos de descoberta, movidos de `recref/` em 2026-10-15 (histórico preservado pelo `git mv`).
 
-| Hoje | Destino | Conteúdo |
-|---|---|---|
-| `recref/visao-geral-da-solucao.md` | `docs/00-discovery/visao-geral-da-solucao.md` | Problema, objetivos, personas, RF/RNF numerados, modelo de dados, estados, plano de testes, cronograma, riscos, fora de escopo, glossário |
-| `recref/spec-feed-transparencia.md` | `docs/00-discovery/spec-feed-transparencia.md` | Pré-especificação do feed — vira insumo do `/speckit-specify` na Sprint 10 |
-| `recref/questoes-em-aberto.md` | `docs/00-discovery/questoes-em-aberto.md` | Questões Q-01 a Q-10 |
-| `recref/changelog.md` | unificar em `/CHANGELOG.md` | Decisões de produto de 2026-10-15 |
+| Documento | Conteúdo |
+|---|---|
+| `visao-geral-da-solucao.md` | Problema, objetivos, personas, RF/RNF numerados, modelo de dados, estados, plano de testes, cronograma, riscos, fora de escopo, glossário |
+| `spec-feed-transparencia.md` | Pré-especificação do feed — vira insumo do `/speckit-specify` na Sprint 10 |
+| `questoes-em-aberto.md` | Questões Q-01 a Q-10 |
+
+O antigo `recref/changelog.md` foi unificado no `/CHANGELOG.md`.
 
 ## Como estes documentos se ligam ao SDD
 

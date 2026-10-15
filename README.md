@@ -12,7 +12,7 @@ Fase de descoberta (Sprint 0). **Ainda não há código** — começa em jan/202
 
 | Quero… | Leia |
 |---|---|
-| Entender o produto | `recref/visao-geral-da-solucao.md` |
+| Entender o produto | `docs/00-discovery/visao-geral-da-solucao.md` |
 | Entender como desenvolvemos | `CLAUDE.md` → `docs/PLAYBOOK-CONDUCAO.md` |
 | Saber como segurança, desempenho e disponibilidade são garantidos | `docs/ATRIBUTOS-DE-QUALIDADE.md` |
 | Saber o que vem a seguir | `docs/ROADMAP.md` |

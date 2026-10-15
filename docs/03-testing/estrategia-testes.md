@@ -1,7 +1,7 @@
 # Estratégia de Testes
 
 > O objetivo não é cobertura por cobertura: é rede de segurança para mudar sem medo e **prova** de que as regras de negócio, o isolamento e a imutabilidade funcionam.
-> Casos críticos da visão geral (CT-01 a CT-15): `recref/visao-geral-da-solucao.md` §13.2.
+> Casos críticos da visão geral (CT-01 a CT-15): `docs/00-discovery/visao-geral-da-solucao.md` §13.2.
 
 ## Pirâmide
 
