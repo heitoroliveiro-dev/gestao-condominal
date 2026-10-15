@@ -55,7 +55,7 @@ Detalhe e modelo de ameaças: `docs/02-security/estrategia-seguranca.md`.
 
 | Regra | Controle | Trava |
 |---|---|---|
-| Append-only | Modelos sem caminho de update/delete na aplicação **e** proteção no banco (mecanismo decidido no ADR-005: trigger ou `REVOKE UPDATE, DELETE` para o papel da aplicação) | Teste CT-08 tentando UPDATE/DELETE direto → falha |
+| Append-only | Modelos sem caminho de update/delete na aplicação **e** proteção no banco (mecanismo decidido no ADR-005: trigger ou `REVOKE UPDATE, DELETE` para o papel da aplicação) | CT-08 (editar auditoria via aplicação → bloqueado) + teste de UPDATE/DELETE direto no banco com o papel da aplicação → falha (ADR-005) |
 | Evento + item do feed atômicos | `transaction.atomic` no serviço de origem | Teste CT-15: falha no feed desfaz a resolução |
 | Efeito colateral não quebra o fluxo | E-mail/notificação via `transaction.on_commit`; falha logada, nunca propagada | Teste "provedor de e-mail falha → cobrança confirmada mesmo assim" |
 | Sem duplicidade | `UniqueConstraint` **no banco** (cobrança por unidade+competência, reação por pessoa+item, um comprovante pendente por cobrança, um responsável financeiro ativo) | Teste CT-03, CT-14 e testes de constraint |
